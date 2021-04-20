@@ -1,0 +1,274 @@
+
+h1{
+	 font-style: normal;
+	 color: black;
+}
+h2{
+	font-style: normal;
+	color: blue;
+    font-family: TradeWinds;
+}
+h4{
+	font-style: normal;
+	color: blue;
+    font-family: TradeWinds;
+}
+.parrafo1{
+	font-style:italic;
+
+}
+
+@font-face{
+    font-family:TradeWinds;
+    src:url(../fonts/TradeWinds-Regular.ttf)
+}
+
+.p{
+   text-align: justify;
+}
+h5 {
+  width: 50%;
+  border: white 4px solid;
+  margin-left: 150px;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+.carousel-inner{
+    width: 260px;
+    height: 460px;
+}
+.blue {
+  color: blue;
+}
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+.social ul {
+		list-style: none;
+}
+ 
+.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+ 
+.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-googleplus {background: #d95232;}
+.social ul li .icon-pinterest {background: #ae181f;}
+.social ul li .icon-mail {background: #666666;}
+ 
+.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #FFA07A;
+  color: #ffffff;
+  padding: 6px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: 33FFBE;
+  
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 7px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.carousel-inner img {
+    width: 50%;
+    max-height: 460px;
+}
+.carousel-inner{
+    width: 10%;
+    height: 460px;
+}
+:focus{
+    outline: none;
+}
+
+
+
+#customers td, #customers th {
+  border: 2px solid #ddd;
+  padding: 2px;
+}
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  background-color: #F8DC6C;
+  color: #A50404;;
+}
+
+form.form_contact{
+    width: 62%;
+    padding: 30px 40px;
+}
+
+
+
+
+
+
+form.form_contact input,
+form.form_contact textarea{
+    width: 100%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+
+    font-family: 'Open sans';
+	color: #5A5A5A;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+form.form_contact textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+}
+
+form.form_contact input[type="submit"]{
+    width: 180px;
+	background: #4091EC;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+
+    align-self: flex-end;
+
+    color: #fff;
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+form.form_contact input[type="submit"]:hover{
+    background: #3371B6;
+}
+
+
+form.form_contact input[type="reset"]{
+    width: 180px;
+	background: #4091EC;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+
+    align-self: flex-end;
+
+    color: #fff;
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+form.form_contact input[type="reset"]:hover{
+    background: #3371B6;
+}
+	

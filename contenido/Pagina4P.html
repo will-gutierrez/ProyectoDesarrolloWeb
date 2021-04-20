@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Inscripción</title>
+  <body background="../img/fondo03.jpg"></body>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+  <link href="../css/estilo.css"  rel="stylesheet">
+ <link href="../css/Stilo2.css"  rel="stylesheet">
+    <script src="../js/JS/jquery-3.4.1.min.js"></script>
+    <script src="../js/JS/popper.min.js"></script>
+    <script src="../js/JS/bootstrap.min.js"></script>
+    <script src="../js/JS/jquery.js"></script>
+    <script src="../js/JS/myFunction.js"></script> 
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Planes Vacacionales</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menú <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a href="../Index.html">Inicio</a></li>
+            <li><a href="../contenido/LugarTuristico.html">Lugar Turistico</a></li>
+            <li><a href="../contenido/Pagina3P.html">Costos</a></li>
+            <li><a href="../contenido/Pagina4P.html">Formulario</a></li>
+          </ul>
+        </li>
+        <li><a href="../Index.html">Inicio</a></li>
+        <li><a href="../contenido/LugarTuristico.html">Lugar Turistico</a></li>
+        <li><a href="../contenido/Pagina3P.html">Costos</a></li>
+        <li><a href="../contenido/Pagina4P.html">Formulario</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<div class="header">
+  <h2>Formulario de Inscripción</h2>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="https://www.facebook.com/"><img style="width:15px; height:15px;" src="../img/descarga.jpg">  Facebook</a> </li>
+      <li><a href="https://www.instagram.com/"><img style="width:15px; height:15px;" src="../img/fa-instagram.png">  Instagram</a> </li>
+      <li><a href="https://www.Twitter.com/"><img style="width:15px; height:15px;" src="../img/fa-twitter.png">  Twitter</a> </li>
+      <li><a href="https://www.whatsapp.com/"><img style="width:15px; height:15px;" src="../img/fa-whatsapp.png">  Whatsapp</a> </li>
+    </ul>
+  </div>
+    </div>  
+    <center>
+    <table id="customers">
+    <tr>
+        <th>
+            <center>
+     <form action="" class="form_contact">
+            <center><h2>Ingresa tus Datos</h2></center>
+         <br>
+            <div class="user_info">
+                Nombres
+                <input type="text" id="names" required >
+
+                Telefono / Celular
+                <input type="text" id="telefono" required>
+
+                Correo electronico 
+                <input type="email" id="email" required >
+                
+                <center>
+                <table id="customers">
+                    <tr>
+                        <th><h3>sexo:</h3></th>
+                        <th><h3>plan:</h3></th>
+                    
+                    </tr> 
+                    <tr>
+                        <td>Hombre
+                            <input type="radio" name="sexo" id="hombre" required>
+                    Mujer
+                            <input type="radio" name="sexo" id="mujer" required></td>
+                        <td>Primero
+                            <input type="radio" name="plan" id="primero" required>
+                    Segundo
+                            <input type="radio" name="plan" id="segundo" required></td>
+                    </tr>
+                </table>
+                </center>
+
+                Comentario 
+                <textarea id="mensaje"></textarea>
+                <center>
+                    
+                <input type="submit" value="Enviar Mensaje" onclick="alerta()" id="btnSend">
+                    
+                <input type="reset" value="Borrar">
+                </center>
+            </div>
+        </form>
+            </center>
+        </th>
+        </tr>
+    </table>
+    </center>
+    <div class="footer">
+  <h6>¿Quieres recibir más informacion?: Escribenos al correo wgutier59555@universidadean.edu.co ó Puedes llamarnos al número 3144720045.</h6>
+</div>
+    </body>
+</html>
